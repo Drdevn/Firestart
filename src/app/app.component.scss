@@ -1,7 +1,22 @@
-.header{
+.navbar{
   display: flex;
-  margin: 0;
   justify-content: space-between;
-  background-color: #7da87b;
+  background-color: #b83b5e;
   padding: 10px;
+}
+.stat{
+  background: none;
+  outline: none;
+  border: 3px solid #f9ed69;
+  background-color: #6a2c70;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  transition: 0.3s linear;
+}
+.stat:hover{
+  background-color: #f08a5d;
+}
+.stat:active{
+  transform: scale(0.9);
 }
