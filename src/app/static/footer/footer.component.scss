@@ -1,0 +1,19 @@
+.footer{
+  display: flex;
+  background-color: #27253d;
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    justify-content: space-between;
+    padding: 25px;
+}
+.leftFooterSide{
+  // margin-left: 15px;
+
+}
+.centerFooterSide{
+  margin-right: 50px;
+}
